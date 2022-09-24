@@ -1,0 +1,88 @@
+
+body{
+
+background-image: url(767316.jpg);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+.div65 {
+box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+background-image: url(bgpic4.jpg);
+
+
+}
+.div65 > *{
+
+
+}
+
+
+.div65 > * {	
+
+height: 1300px;
+
+}
+
+.u h1{
+font-weight: normal;
+
+position: relative;
+margin: 40px 0;
+color: white;
+}
+h1::before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: crimson;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: animate 4s linear infinite;
+}
+@keyframes animate {
+	0{
+		width: 100px;
+	}
+	50%{
+		width: 200px;
+	}
+	100%{
+		width: 100px;
+	}
+}
+
+.a img {
+  max-width: 100%;
+  
+ align-items: center; 
+  
+}
+
+.d h2 {
+	text-align: center;
+	font-size: 3em;
+	font-family: New Rocker;
+	color: #68228B;
+	
+}
+.r p {
+	text-align: center;
+	font-size: 1.7em;
+	font-family: Arial Verdana Helvetica;
+	color: #68228B;
+	
+}
+
+
+
+
+
+
+
+

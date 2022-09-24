@@ -1,0 +1,220 @@
+* {box-sizing: border-box;}
+body {font-family: monospace;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+ text-align: center;
+  color: white;
+}
+
+
+
+/* Number text (1/4 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+-webkit-animation-name: slidein;
+-webkit-animation-duration: 1.5s;
+animation-name: slidein;
+animation-duration: 1.5s;
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading Animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+
+@keyframes slidein {
+	from {margin-left: 100%; width: 300%;}
+		
+		to {margin-left: 0%; width: 300%;}
+		
+}
+
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screeen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+.div2 {
+
+vertical-align: middle;
+  width: 100%;
+ position: relative;
+  padding: 10px;
+  border:  double black;
+  border-top: 9px double black;
+  border-bottom: 9px double black;
+  border-right: 3px double black;
+  border-left: 3px double black;
+  margin: auto;
+  margin-top: 20px;
+  background-image: url(bgpic4.jpg);
+  
+ 
+
+  
+  
+}
+
+.glow h1{
+font-size: 4em;
+margin-top: 35px;
+font-family: New Rocker;
+color: #FFFFFF;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px FF1493 0 0 40px #FF1493, 0 0 50px #FF1493, 0 0 60px #FF1493, 0 0 70px #FF1493;
+}
+  to {
+    text-shadow: 0 0 20px #FFFFFF, 0 0 30px #0000FF, 0 0 40px #0000FF, 0 0 50px #0000FF, 0 0 60px #0000FF, 0 0 70px #0000FF, 0 0 80px #0000FF;
+  }
+}
+.glow h2 {
+font-size: 3em;
+margin-top: 35px;
+font-family: New Rocker;
+color: #FFFFFF;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px FF1493 0 0 40px #FF1493, 0 0 50px #FF1493, 0 0 60px #FF1493, 0 0 70px #FF1493;
+}
+  to {
+    text-shadow: 0 0 20px #FFFFFF, 0 0 30px #FF00FF, 0 0 40px #0000FF, 0 0 50px #0000FF, 0 0 60px #0000FF, 0 0 70px #0000FF, 0 0 80px #0000FF;
+  }
+}
+.glow p {
+	font-size: 1.7em;
+margin-top: 25px;
+font-family: Apple Chancery,cursive;
+
+color: black;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+.desc {
+  display: grid;
+ background-image: url(bgpic4.jpg);
+ margin-left: 10px;
+ margin-right: 10px;
+}
+@media (min-width:768px) {
+  .desc {
+    grid-template-columns:1fr; /* 2 columns only on big screen */
+    grid-auto-flow:dense; /* fill all the area */
+  }
+  .image:nth-child(1n + 3) {
+      grid-column:1; /* move the each second image to the second column */
+  }
+}
+
+
+
+.image,
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 20px 10px;
+  box-sizing: border-box;
+  flex-direction: column;
+  border: 2px solid;
+  border-color: black;
+  color: #800080;
+  
+  
+}
+.image, .text h1 {
+	font-size: 2.2em;
+	font-family: monospace; 
+	 align-items: center;
+	 text-decoration: double-underline;
+}
+
+.image, .text p {
+	font-size: 1.6em;
+	font-family: Arial Verdana Helvetica; 
+	 text-align: center;
+}
+
+
+.image img {
+  max-width: 100%;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+

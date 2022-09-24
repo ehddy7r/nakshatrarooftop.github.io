@@ -1,0 +1,145 @@
+body{
+
+
+
+background-image: url(767316.jpg);
+
+}
+
+
+
+
+.div066 {
+box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+background-image: url(bgpic4.jpg);
+
+
+}
+.div066 > *{
+
+
+
+}
+
+
+.div066 > * {	
+
+height: 2300px;
+
+
+
+}
+
+h1{
+font-weight: normal;
+font-size: 35px;
+position: relative;
+margin: 40px 0;
+color: white;
+}
+h1::before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: crimson;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: animate 4s linear infinite;
+}
+@keyframes animate {
+	0{
+		width: 100px;
+	}
+	50%{
+		width: 200px;
+	}
+	100%{
+		width: 100px;
+	}
+}
+
+.h img {
+  max-width: 100%;
+  margin-right: 0;
+ align-items: center;
+ 
+  
+}
+
+.div08 h2 {
+	text-align: center;
+	font-size: 2.3em;
+	font-family: New Rocker;
+	color: #FF1493;
+	
+}
+.div045 h2 {
+	text-align: center;
+	font-size: 2.3em;
+	font-family: New Rocker;
+	
+	color: black;
+}
+
+.div075 h2 {
+	text-align: center;
+	font-size: 2.3em;
+	font-family: New Rocker;
+	color: #FF4500;
+	
+}
+
+
+.k p {
+	text-align: center;
+	font-size: 1.6em;
+	font-family: Arial Verdana Helvetica;
+	color: #68228B;
+	font-weight: normal;
+	
+}
+
+.p h1{
+font-weight: normal;
+font-size: 35px;
+position: relative;
+margin: 40px 0;
+color: black;
+text-align: center;
+}
+.p h1::before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: crimson;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: animate 4s linear infinite;
+}
+@keyframes animate {
+	0{
+		width: 100px;
+	}
+	50%{
+		width: 200px;
+	}
+	100%{
+		width: 100px;
+	}
+}
+
+.div033 img{
+	width: 250%;
+	height: 350%;
+	object-fit: cover;
+	border-radius: 10%;
+	border: 5px solid #fff;
+}
+.div033 img{
+	width: 250px;
+	height: 250px;
+}

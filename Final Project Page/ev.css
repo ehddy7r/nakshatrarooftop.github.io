@@ -1,0 +1,65 @@
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  height: 13%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+h1{
+font-weight: normal;
+font-size: 35px;
+position: relative;
+margin: 40px 0;
+color: white;
+}
+h1::before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: crimson;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: animate 4s linear infinite;
+}
+@keyframes animate {
+	0{
+		width: 100px;
+	}
+	50%{
+		width: 200px;
+	}
+	100%{
+		width: 100px;
+	}
+}
+
+
+

@@ -1,0 +1,33 @@
+
+
+.div66 button {
+background-color: black;
+width: 54%;
+color: orange;
+padding: 14px;
+
+border: none;
+cursor: pointer;
+margin-left: 70px;
+
+
+}
+form {
+
+}
+input[type=text], input[type=password] {
+width: 50%;
+margin: 8px 0;
+padding: 12px 20px;
+
+border: 2px solid green;
+
+}
+button:hover {
+opacity: 0.7;
+}
+
+.div29 {
+padding: 15px;
+background-color: #76448A;;
+}

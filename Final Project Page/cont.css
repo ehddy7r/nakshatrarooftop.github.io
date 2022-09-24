@@ -1,0 +1,29 @@
+.div5 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: #fff;
+text-align: center;
+}
+.div5 h1 {
+font-size: 50px;
+}
+.div5 p {
+padding: 0px 50px;
+font-size: 20px;
+}
+.button {
+background: none;
+border: 1px solid #fff;
+color: #fff;
+font-size: 18px;
+padding: 10px 25px;
+border-radius: 6px;
+transition: 0.6s all ease;
+
+}
+border:hover {
+background: black;
+color: red;
+}

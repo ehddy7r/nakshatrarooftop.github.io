@@ -1,0 +1,136 @@
+
+body{
+
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-image: url(767316.jpg);
+
+}
+
+
+
+
+.div066 {
+box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+background-image: url(bgpic4.jpg);
+}
+.div066 > *{
+
+
+
+}
+
+
+.div066 > * {	
+
+height: 2000px;
+
+
+
+}
+
+h1{
+font-weight: normal;
+font-size: 35px;
+position: relative;
+margin: 40px 0;
+color: white;
+}
+h1::before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: crimson;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: animate 4s linear infinite;
+}
+@keyframes animate {
+	0{
+		width: 100px;
+	}
+	50%{
+		width: 200px;
+	}
+	100%{
+		width: 100px;
+	}
+}
+
+.h img {
+  max-width: 100%;
+  margin-right: 0;
+ align-items: center;
+ 
+  
+}
+
+.div08 h2 {
+	text-align: center;
+	font-size: 2.3em;
+	font-family: New Rocker;
+	color: #68228B;
+	
+}
+.div910 p {
+	text-align: center;
+	font-size: 1.6em;
+	font-family: Arial Verdana Helvetica;
+	color: #68228B;
+	
+}
+
+
+h4 {
+	text-align: center;
+	font-size: 2em;
+	font-family: New Rocker;
+	color: #68228B;	
+	
+}
+
+.div90 p {
+	text-align: left;
+	font-size: 1.6em;
+	font-family: Arial Verdana Helvetica;
+	color: #68228B;
+	
+}
+.div06 p {
+	text-align: left;
+	font-size: 1.9em;
+	font-family: Arial Verdana Helvetica;
+	color: #68228B; 
+	font-weight: bold;
+	
+}
+
+
+.BTN {
+	background-color: #68228B;
+	border: 1px;
+	border-radius: 2px 3px;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	
+	font-size: 16px;
+	margin: 1px 1px;
+	cursor: pointer;
+}
+
+
+ul.a {
+	list-style-type: square;
+	color: purple;
+}
+
+
+
+
+
+
+

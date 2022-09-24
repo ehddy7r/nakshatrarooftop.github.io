@@ -1,0 +1,81 @@
+
+
+/* Set height of body and the document to 100% */
+body {
+  
+  
+  font-family: Arial;
+  text-decoration: none;
+
+  
+}
+.div5 a {
+	text-decoration: none;
+	color: black;
+	font-family: Times New Roman;
+}
+
+
+/* Style tab links */
+.tablink {
+  
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 1.0em;
+  width: 25%;
+  margin-top: 25px;
+  font-family: Times New Roman;
+  text-decoration: none;
+
+ 
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px 10px;
+  height: 150%;
+}
+
+h1{
+font-weight: normal;
+font-size: 30px;
+position: relative;
+margin: 40px 0;
+color: white;
+}
+h1::before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: crimson;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: animate 4s linear infinite;
+}
+@keyframes animate {
+	0{
+		width: 100px;
+	}
+	50%{
+		width: 200px;
+	}
+	100%{
+		width: 100px;
+	}
+}
+
+
+
+
